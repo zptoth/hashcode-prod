@@ -100,8 +100,11 @@
 
     /* Add some padding inside the card container */
     .container {
-      padding: 20px 16px; 
+      padding: 20px 16px;
     }
+
+
+
   </style>
 
 
@@ -120,8 +123,13 @@
       </div>
       <nav class='ql-sidenav'>
         <ql-sidenav-item active href='/' icon='home' label='Home'></ql-sidenav-item>
-
-        <ql-sidenav-item href='/archive/' icon='school' label='Archive'></ql-sidenav-item>
+        <ql-sidenav-item href='https://codingcompetitions.withgoogle.com/hashcode/schedule' icon='school' label='Schedule'></ql-sidenav-item>
+        <ql-sidenav-item href='https://codingcompetitions.withgoogle.com/hashcode/teammanagement/00000000008caae7' icon='school' label='My Team'></ql-sidenav-item>
+        <ql-sidenav-item href='#Hubs' icon='school' label='Hungarian Hubs'></ql-sidenav-item>
+        <ql-sidenav-item href='https://codingcompetitions.withgoogle.com/hashcode/rulesandterms' icon='school' label='Rules'></ql-sidenav-item>
+        <ql-sidenav-item href='https://codingcompetitions.withgoogle.com/hashcode/archive' icon='school' label='Archive'></ql-sidenav-item>
+        <ql-sidenav-item href='https://spot.sch.bme.hu/events/google/' icon='school' label='Gallery' target="_blank"></ql-sidenav-item>
+        <ql-sidenav-item href='https://codingcompetitions.withgoogle.com/hashcode/register' icon='school' label='Register Now'></ql-sidenav-item>
 
       </nav>
 
@@ -136,7 +144,13 @@
         </div>
         <div class='toolbar-tabs' role='tablist' slot='tabs'>
           <ql-tab active href='/' label='Home'></ql-tab>
-          <ql-tab href='/archive/' label='Archive'></ql-tab>
+          <ql-tab href='https://codingcompetitions.withgoogle.com/hashcode/schedule' label='Schedule' ></ql-tab>
+          <ql-tab href='https://codingcompetitions.withgoogle.com/hashcode/teammanagement/00000000008caae7' label='My Team' ></ql-tab>
+          <ql-tab href='#hubs' label='Hungarian Hubs' ></ql-tab>
+          <ql-tab href='https://codingcompetitions.withgoogle.com/hashcode/rulesandterms' label='Rules' ></ql-tab>
+          <ql-tab href='https://codingcompetitions.withgoogle.com/hashcode/archive' label='Archive' ></ql-tab>
+          <ql-tab href='https://spot.sch.bme.hu/events/google/' label='Gallery' target="_blank"></ql-tab>
+          <ql-tab href='https://codingcompetitions.withgoogle.com/hashcode/register' label='Register Now' ></ql-tab>
         </div>
         <div class='toolbar-actions' slot='action'>
           <!-- <ql-icon-button class='mobile-hide' icon='help_outline' id='help-menu-button' label='Open help menu' tip='Help'></ql-icon-button>
@@ -144,14 +158,27 @@
 <ql-menu-item data-analytics-action='opened_help' data-analytics-label='' label='Help Center' onclick='hallofmirrors.helpService.startHelp({&quot;productData&quot;:{&quot;userId&quot;:null},&quot;context&quot;:&quot;&quot;})'></ql-menu-item>
 <ql-menu-item href='https://support.google.com/qwiklabs/contact/contact_us' label='Email support' target='_blank'></ql-menu-item>
 </ql-menu> -->
+
+
           <!-- gtranslate.io -->
+
+          <!--
+
           <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl"
             style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="32" width="32"
               alt="English" /></a><a href="#" onclick="doGTranslate('en|hu');return false;" title="Hungarian"
             class="gflag nturl" style="background-position:-600px -400px;"><img src="//gtranslate.net/flags/blank.png"
               height="32" width="32" alt="Hungarian" /></a>
 
+          -->
+
+
+
+
           <style type="text/css">
+
+
+
             <!--
             a.gflag {
               vertical-align: middle;
@@ -189,6 +216,8 @@
               display: none !important;
             }
             -->
+
+
           </style>
 
           <div id="google_translate_element2"></div>
@@ -205,18 +234,27 @@
 /* ]]> */
           </script>
         </div>
+
       </ql-toolbar>
+
       <main id='jump-content'>
 
         <div class='discovery-wrapper'>
           <div class='discovery-intro'>
             <div class='discovery-text'>
               <h1 class='ql-headline-1'>
-                Hashcode Hubs Hungary
+                Join the Hungarian Hashcode Hubs!
               </h1>
               <p class='ql-body-1'>
-                Hash Code is a team programming competition, organized by Google, for students and professionals around
-                the world. We are organizing few hubs in hungary to make it more fun.
+                Hash Code is a team programming competition, organized by Google, for students and professionals around the world. You pick your team and programming language and we pick an engineering problem for you to solve. This year’s contest kicks off with a Qualification Round, where your team can compete virtually from wherever you’d like, alongside your virtual Hub. Top teams will then be invited to compete from our virtual World Finals. <br> <br> This you can participate from 4 Hungarian Hubs, organized by GDG Budapest, in collaboration with KSZK, GDSC BME, GDSC ELTE, GDSC Pécs, GDSC Unideb.
+
+                <!-- REGISTER BUTTON
+
+                <a href="https://codingcompetitions.withgoogle.com/hashcode/register" class="" id="hero-cta"><button class="mdc-button big-round-corner-button mdc-button--raised mdc-ripple-upgraded" style="--mdc-ripple-fg-size:73px; --mdc-ripple-fg-scale:1.87577; --mdc-ripple-fg-translate-start:9px, -12.5px; --mdc-ripple-fg-translate-end:24.3594px, -18.5px;"><span class="mdc-button__label">Register Now
+            </span></button></a>
+
+            REGISTER BUTTON -->
+
               </p>
             </div>
 
@@ -234,7 +272,7 @@
         <div class='discovery-wrapper'>
           <div class='discovery-intro'>
             <div class='discovery-text'>
-              <h1 class='ql-headline-1'>
+              <h1 class='ql-headline-1' id="hubs">
                 Hungarian Hubs
               </h1>
 
@@ -243,46 +281,64 @@
           </div>
         </div>
         <br><br>
-        <div class="container">
-          <div class="row">
+
+
+
+
+        <div class='container'>
+
+          <div class="row" >
+
             <div class="col-4">
               <div class="card">
                 <div class="card">
                   <div class="container">
-                    <h4><b>GDD Budapest, KSZK, GDSC BME </b></h4>
-                    <p>Budapest</p>
+                    <h4><b>GDG Budapest, KSZK, GDSC BME Hub</b></h4>
+                    <p>BME Schönherz Kollégium<br>1117 Budapest, Irinyi József u. 42.</p>
+                    <br>
                     <a href="https://gdg.community.dev/events/details/google-gdg-budapest-presents-hash-code-team-programming-competition/" class="btn btn-primary ">Learn More</a>
 
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col-4">
               <div class="card">
                 <div class="card">
                   <div class="container">
-                    <h4><b>GDSC ELTE </b></h4>
-                    <p>Budapest</p>
+                    <h4><b>Google Developer Student Club ELTE Hub</b></h4>
+                    <p><br>Budapest</p>
                     <br>
-
-                    <a href="#" class="btn btn-primary ">Learn More</a>
-
+                    <a href="https://gdsc.community.dev/eotvos-lorand-university/" class="btn btn-primary ">Learn More</a>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col-4 ">
               <div class="card">
                 <div class="container">
-                  <h4><b>GDSC Pécs </b></h4>
-                  <p>Pécs</p> <br>
-
+                  <h4><b>Google Developer Student Club Pécs Hub</b></h4>
+                  <p>PTE Szántó Kollégium (Room D1K18)<br>7633 Pécs, Szántó Kovács János u. 1/d</p> <br>
                   <a href="https://gdsc.community.dev/events/details/developer-student-clubs-university-of-pecs-presents-hashcode-team-programming-competition/" class="btn btn-primary ">Learn More</a>
                 </div>
               </div>
             </div>
 
+
+            <div class="col-4 ">
+              <div class="card">
+                <div class="container">
+                  <h4><b>Google Developer Student Club Unideb Hub</b></h4>
+                  <p>Debreceni Egyetem<br>Debrecen</p> <br>
+                  <a href="https://gdsc.community.dev/university-of-debrecen-debreceni-egyetem-de/" class="btn btn-primary ">Learn More</a>
+                </div>
+              </div>
+            </div>
+
           </div>
+
 
 
           <section class='curated-cards'>
